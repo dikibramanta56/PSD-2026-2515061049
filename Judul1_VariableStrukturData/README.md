@@ -33,3 +33,29 @@ Menerima input pilihan user.
 <img width="1080" height="406" alt="code pilihan pertama ph" src="https://github.com/user-attachments/assets/a048cdd6-e3d0-468f-984d-87ff54d7c583" />
 print(id(pengeluaran))
 Menampilkan alamat memori list.
+<img width="1404" height="406" alt="code pilihan kedua ph" src="https://github.com/user-attachments/assets/f4d6ece9-66ce-43a8-a69b-e1a3f5f2fbb1" />
+for i in range(len(pengeluaran)):
+Menelusuri semua elemen list.
+print(id(pengeluaran[i]))
+Menampilkan alamat memori setiap elemen.
+<img width="1448" height="672" alt="code pilihan ketiga ph" src="https://github.com/user-attachments/assets/8b4e0144-48fb-4d53-8df5-e1af458d8224" />
+pengeluaran[i] = int(input())
+Mengisi nilai pengeluaran ke setiap index list.
+<img width="1158" height="482" alt="code pilihan keempat ph" src="https://github.com/user-attachments/assets/4b13b942-6e8b-4ea7-91c5-1ba8e1f5663d" />
+print(pengeluaran)
+Menampilkan seluruh isi list.
+<img width="1034" height="444" alt="code pilihan kelima ph" src="https://github.com/user-attachments/assets/3274d37d-e183-4354-ba0c-0a78607166cd" />
+total = sum(pengeluaran)
+Menjumlahkan semua isi list.
+print(total)
+Menampilkan total pengeluaran.
+<img width="834" height="444" alt="code pilihan keenam ph" src="https://github.com/user-attachments/assets/37dc6c27-3313-40dc-a69c-3114f9026e74" />
+running = False
+Menghentikan program.
+<img width="1096" height="520" alt="code pengkondisian lain dan main()" src="https://github.com/user-attachments/assets/5ec6967d-64a4-4404-9800-c0908b8d4a19" />
+else: print("Pilihan tersebut tidak tersedia") pengkondisian lain jika user menginput angka int selain 1-6 
+if __name__ == "__main__":
+    main()
+    Menjalankan fungsi utama saat program dibuka.
+
+
