@@ -17,3 +17,19 @@ print("5. Hitung total pengeluaran")
 Menampilkan pilihan kelima untuk menjumlahkan data.
 print("6. Keluar")
 Menampilkan pilihan keenam untuk keluar.
+<img width="1140" height="748" alt="code def main" src="https://github.com/user-attachments/assets/4c0043f1-1e9f-4dfc-9682-6aca0f54c0a4" />
+def main():
+Membuat fungsi utama program.
+pengeluaran = [0] * 5
+Membuat list berisi 5 elemen bernilai 0.
+running = True
+Variabel agar program terus berjalan.
+while running:
+Perulangan selama program masih aktif.
+menu()
+Menampilkan menu.
+pilihan = int(input("Masukkan pilihan: "))
+Menerima input pilihan user.
+<img width="1080" height="406" alt="code pilihan pertama ph" src="https://github.com/user-attachments/assets/a048cdd6-e3d0-468f-984d-87ff54d7c583" />
+print(id(pengeluaran))
+Menampilkan alamat memori list.
