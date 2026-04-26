@@ -2,6 +2,7 @@ Judul Program: Pencacatan Harian
 Deskripsi Singkat: Program ini berfungsi untuk mencatat pengeluaran harian pengguna selama 5 hari dengan menggunakan list 1 dimensi sebagai media penyimpanan data. Setiap data pengeluaran disimpan dalam satu index list, sehingga pengguna dapat memasukkan nilai pengeluaran, melihat data yang tersimpan, mengetahui alamat memori list, serta menghitung total seluruh pengeluaran melalui menu interaktif.
 Struktur data yang diterapkan pada program ini adalah list 1 dimensi, yaitu struktur data linear yang menyimpan elemen secara berurutan dalam satu baris. Algoritma yang digunakan adalah traversal, yaitu proses menelusuri seluruh elemen list untuk menampilkan data dan menghitung total nilai pengeluaran.
 
+SOURCE CODE:
 <img width="1758" height="634" alt="code menu" src="https://github.com/user-attachments/assets/51ce5933-a8a6-445e-b5c9-c5149f06b749" />
 def menu():
 Membuat fungsi untuk menampilkan menu pilihan.
@@ -57,5 +58,30 @@ else: print("Pilihan tersebut tidak tersedia") pengkondisian lain jika user meng
 if __name__ == "__main__":
     main()
     Menjalankan fungsi utama saat program dibuka.
+OUTPUT:
+<img width="1920" height="1080" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/6871e50c-c892-4c6d-a68c-c4578fe99f41" />
+<img width="1920" height="1080" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/6e18357c-b430-497b-80e4-cfbed5f11ad3" />
+Pilihan 1
+Address list: 140234567890
+Artinya program menunjukkan lokasi list disimpan di memori.
+pilihan 2
+Address pengeluaran[0] = 140234500001
+Address pengeluaran[1] = 140234500002
+Artinya setiap nilai dalam list memiliki alamat memori tersendiri.
+pilihan 3
+Hari ke-1: Rp 10000
+Hari ke-2: Rp 15000
+Nilai yang dimasukkan akan disimpan ke dalam list.
+pilihan 4
+Output menampilkan seluruh data pengeluaran yang sudah disimpan.
+pilhan 5
+Total pengeluaran: Rp 50000
+Output menampilkan jumlah seluruh pengeluaran.
+pilihan 6
+Program selesai
+Output menampilkan pesan bahwa program selesai.
+Program berhenti dijalankan.
+
+LINK YOUTUBE: https://youtu.be/Y6eOMLdVMfM?si=gcbvKZjmwpDrCuhx
 
 
