@@ -4,7 +4,9 @@ DESKRIPSI SINGKAT: Program ini merupakan implementasi struktur data Stack (Array
 Pada program ini pengguna dapat melakukan beberapa operasi dasar stack seperti menambahkan PIN (push), menghapus PIN terakhir (pop), melihat PIN teratas (peek), dan menampilkan seluruh data PIN yang tersimpan (display). Data PIN disimpan menggunakan array/list dengan kapasitas tertentu sehingga program juga dapat melakukan pengecekan kondisi stack penuh maupun stack kosong.
 
 SOURCE CODE: 
+
 <img width="1248" height="4054" alt="tugas akhir 4" src="https://github.com/user-attachments/assets/dcd3df18-0618-43fc-a132-0f9ab1c0a5ca" />
+
 Program diawali dengan class PinStack: yang digunakan untuk membuat sebuah class bernama PinStack. Class ini berfungsi sebagai cetakan atau blueprint untuk membuat sistem penyimpanan PIN sementara menggunakan struktur data stack. Di dalam class inilah seluruh operasi stack seperti menambah data, menghapus data, melihat data teratas, dan menampilkan isi stack dibuat.
 
 Selanjutnya terdapat def __init__(self, max_size=100): yang merupakan constructor atau method otomatis yang dijalankan ketika object dibuat. Constructor ini memiliki parameter self yang digunakan untuk merepresentasikan object itu sendiri, sedangkan max_size=100 digunakan untuk menentukan kapasitas maksimum stack yaitu sebanyak 100 data PIN.
@@ -52,7 +54,9 @@ Jika user memasukkan pilihan selain 1 sampai 5 maka bagian else: dijalankan dan 
 Terakhir terdapat if __name__ == "__main__": yang digunakan untuk memastikan bahwa file Python dijalankan secara langsung, bukan diimpor dari file lain. Jika kondisi benar maka program menjalankan main() yang berfungsi memanggil dan menjalankan seluruh program utama.
 
 OUTPUT:
+
 <img width="798" height="912" alt="image" src="https://github.com/user-attachments/assets/d6835791-a5a3-4c1b-bb39-e965adebebd6" />
+
 1. Simpan PIN
 Pada menu ini pengguna diminta memasukkan PIN berupa angka 4 sampai 6 digit. Jika input valid dan stack belum penuh, program akan menampilkan pesan:
 
@@ -79,11 +83,11 @@ Output tersebut menunjukkan PIN terbaru yang tersimpan pada stack. Jika stack ko
 Pada menu ini program menampilkan seluruh data PIN yang tersimpan di dalam stack mulai dari PIN terbaru hingga PIN terlama. Contoh output:
 
 Daftar PIN Tersimpan (Terbaru -> Lama)
---------------------------------------
+
 5678
 4321
 1234
---------------------------------------
+
 
 Output tersebut menunjukkan isi stack dari posisi top hingga data paling bawah sesuai konsep stack.
 
