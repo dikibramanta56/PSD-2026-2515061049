@@ -287,7 +287,7 @@ Kemudian ketika pengguna memilih menu 9 yaitu sum nodes, program akan menjumlahk
 Setelah seluruh proses selesai dan pengguna memilih menu keluar, program akan menampilkan pesan “Program selesai.” yang menandakan bahwa sistem BST telah berhenti dijalankan dan seluruh proses input maupun operasi tree telah selesai dilakukan.
 
 
-LINK VIDEO YOUTUBE:
+LINK VIDEO YOUTUBE: https://youtu.be/k1a8h4FOIbY?si=MBN2JfDxXY_J0y8x
 
 
 
