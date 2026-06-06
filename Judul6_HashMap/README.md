@@ -165,4 +165,4 @@ DAFTAR KOMPUTER
 
 Artinya komputer nomor 11 yang sebelumnya sedang dipakai berhasil dikembalikan dan statusnya berubah menjadi tersedia kembali.
 
-LINK VIDEO YOUTUBE:
+LINK VIDEO YOUTUBE: https://youtu.be/A3x3x5aWfAA?si=4YCyZsskyjhhUtzC
